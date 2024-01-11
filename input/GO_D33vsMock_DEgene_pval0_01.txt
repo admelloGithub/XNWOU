@@ -1,0 +1,185 @@
+ID	Description	GeneRatio	BgRatio	pvalue	p.adjust	qvalue	geneID	Count
+GO:0030098	Lymphocyte Differentiation	48/241	471/28943	8.68E-38	2.58E-34	1.81E-34	Lck/Relb/Il7r/Ly9/Spib/Pou2f2/Slamf6/Slamf1/Ikzf3/Ikzf1/Tnfaip3/Irf4/Nckap1l/Cd4/Cd74/Ms4a1/Ctla4/Cd28/Inpp5d/Ptprc/Cr2/Il1a/Tnfsf8/Laptm5/Rhoh/Dock11/Sash3/Btk/Pou2af1/Cd3e/Lyl1/Vav1/Tespa1/H2-Aa/Ccr7/Gimap3/Foxp3/Cd79b/Ccr6/Pla2g2d/Irf8/Zc3h12a/Tlr9/Gpr18/Gpr183/Slamf8/Il4i1/Bcl2a1d	48
+GO:0070661	Leukocyte Proliferation	41/241	384/28943	4.36E-33	6.47E-30	4.54E-30	Il7r/Bid/Tnfrsf13b/Blk/Slamf6/Slamf1/Cd40/Ikzf3/Cd180/Clu/Nckap1l/Cd4/Cd74/Cd6/Ctla4/Cd28/Inpp5d/Ptprc/Cr2/Il1a/Laptm5/Siglecg/Coro1a/Cd37/Sash3/Btk/Cd3e/Rac2/H2-Aa/Ccr7/Foxp3/Zc3h12d/Pla2g2d/Tlr9/Cxcr4/Gpr183/Btla/Rasal3/Stat4/Csf2rb2/Il4i1	41
+GO:0046651	Lymphocyte Proliferation	38/241	344/28943	3.04E-31	3.01E-28	2.11E-28	Il7r/Bid/Tnfrsf13b/Blk/Slamf6/Slamf1/Cd40/Ikzf3/Cd180/Nckap1l/Cd4/Cd74/Cd6/Ctla4/Cd28/Inpp5d/Ptprc/Cr2/Il1a/Laptm5/Siglecg/Coro1a/Cd37/Sash3/Btk/Cd3e/Rac2/H2-Aa/Ccr7/Foxp3/Zc3h12d/Pla2g2d/Tlr9/Cxcr4/Gpr183/Btla/Rasal3/Il4i1	38
+GO:0050670	Regulation Of Lymphocyte Proliferation	33/241	253/28943	1.35E-29	7.98E-27	5.59E-27	Bid/Tnfrsf13b/Blk/Slamf1/Cd40/Ikzf3/Nckap1l/Cd4/Cd74/Cd6/Ctla4/Cd28/Inpp5d/Ptprc/Il1a/Laptm5/Siglecg/Coro1a/Cd37/Sash3/Btk/Cd3e/Rac2/H2-Aa/Ccr7/Foxp3/Zc3h12d/Pla2g2d/Tlr9/Gpr183/Btla/Rasal3/Il4i1	33
+GO:0007159	Leukocyte Cell-Cell Adhesion	39/241	411/28943	1.61E-29	7.98E-27	5.59E-27	Lck/Itgb7/Efnb2/Il7r/Slamf1/Nckap1l/Cd4/Tnf/Cd74/Cd6/Icos/Ctla4/Cd28/Ptprc/Sell/Itga4/Il1a/Laptm5/Rhoh/Coro1a/Cd37/Sash3/Ets1/Cd3e/Rac2/Tespa1/H2-Aa/Icam1/Ccr7/Gimap3/Foxp3/Zc3h12d/Pla2g2d/H2-Ob/Zc3h12a/Btla/Rasal3/H2-Eb1/Il4i1	39
+GO:0070663	Regulation Of Leukocyte Proliferation	34/241	280/28943	2.09E-29	8.87E-27	6.22E-27	Bid/Tnfrsf13b/Blk/Slamf1/Cd40/Ikzf3/Nckap1l/Cd4/Cd74/Cd6/Ctla4/Cd28/Inpp5d/Ptprc/Il1a/Laptm5/Siglecg/Coro1a/Cd37/Sash3/Btk/Cd3e/Rac2/H2-Aa/Ccr7/Foxp3/Zc3h12d/Pla2g2d/Tlr9/Gpr183/Btla/Rasal3/Csf2rb2/Il4i1	34
+GO:1903037	Regulation Of Leukocyte Cell-Cell Adhesion	36/241	371/28943	1.27E-27	4.18E-25	2.93E-25	Lck/Efnb2/Il7r/Slamf1/Nckap1l/Cd4/Tnf/Cd74/Cd6/Icos/Ctla4/Cd28/Ptprc/Itga4/Il1a/Laptm5/Rhoh/Coro1a/Cd37/Sash3/Ets1/Cd3e/Tespa1/H2-Aa/Icam1/Ccr7/Gimap3/Foxp3/Zc3h12d/Pla2g2d/H2-Ob/Zc3h12a/Btla/Rasal3/H2-Eb1/Il4i1	36
+GO:0042113	B Cell Activation	38/241	440/28943	2.90E-27	7.83E-25	5.49E-25	Il7r/Spib/Pou2f2/Tnfrsf13b/Blk/Cd40/Ikzf3/Ikzf1/Tnfaip3/Cd180/Nckap1l/Cd74/Ms4a1/Ctla4/Cd28/Inpp5d/Ptprc/Cr2/Laptm5/Siglecg/Dock11/Sash3/Btk/Pou2af1/Lyl1/Bank1/Foxp3/Pik3cd/Cd79b/Aicda/Ccr6/Irf8/Tlr9/Cxcr5/Gpr183/Btla/Slamf8/Il4i1	38
+GO:0050863	Regulation Of T Cell Activation	35/241	378/28943	3.55E-26	8.77E-24	6.15E-24	Lck/Efnb2/Il7r/Bid/Slamf1/Nckap1l/Cd4/Cd74/Cd6/Icos/Ctla4/Cd28/Ptprc/Il1a/Laptm5/Rhoh/Coro1a/Lat/Cd37/Sash3/Cd3e/Rac2/Tespa1/H2-Aa/Ccr7/Gimap3/Foxp3/Zc3h12d/Pla2g2d/H2-Ob/Zc3h12a/Btla/Rasal3/H2-Eb1/Il4i1	35
+GO:0032103	Positive Regulation Of Response To External Stimulus	37/241	459/28943	1.70E-25	3.88E-23	2.72E-23	Il16/Sh2d1a/Cyba/Slamf6/Slamf1/Cd180/Nckap1l/Cxcl13/C3/Sting1/Tnf/Cd74/Tasl/Ly96/Cd28/Sell/Cxcl1/Ptn/Trim30a/Ets1/Rac2/Vav1/Cxcl10/Ccl7/Aim2/Ccr7/Ctss/Nlrc4/Gimap3/Ccr6/Ifi209/Tlr9/Cxcr4/Ccr4/Mmp12/Scimp/Klri1	37
+GO:0002460	Adaptive Immune Response Based On Somatic Recombination Of Immune Receptors Built From Immunoglobulin Superfamily Domains	37/241	486/28943	1.27E-24	2.70E-22	1.89E-22	Relb/Il7r/Ly9/Pou2f2/Slamf6/Slamf1/H2-M2/Cd40/Tnfaip3/Irf4/Nckap1l/Cd4/C3/Tnf/Cd74/Nfkb2/Cd28/Inpp5d/Ptprc/Cr2/Il21r/Sash3/Btk/H2-Aa/Prf1/Icam1/Ccr7/Gimap3/Foxp3/Aicda/Ccr6/H2-Ob/Zc3h12a/Klhl6/H2-Eb1/Csf2rb2/Il4i1	37
+GO:0002683	Negative Regulation Of Immune System Process	36/241	465/28943	3.21E-24	6.35E-22	4.45E-22	Il7r/Sh2d1a/Tnfrsf13b/Blk/Slamf1/Tnfaip3/Nckap1l/Gcsam/Tnf/Cd74/Lpxn/Ctla4/Pdcd1/Inpp5d/Ptprc/Cr2/Laptm5/Siglecg/Cd37/Btk/H2-Aa/Bank1/Gimap3/Foxp3/Zc3h12d/Pla2g2d/H2-Ob/Iapp/Zc3h12a/Mmp12/Nlrc3/Gpr18/Btla/Slamf8/Cnr2/Il4i1	36
+GO:0050900	Leukocyte Migration	31/241	385/28943	1.86E-21	2.91E-19	2.04E-19	Itgb7/Il16/Slamf1/Nckap1l/Gcsam/Cxcl13/Tnf/Cd74/Ccl20/Sell/Itga4/Il1a/Rhoh/Ppbp/Cxcl3/Cxcl1/Cxcl9/Ptn/Coro1a/Rac2/Vav1/Cxcl10/Ccl7/Icam1/Ccr7/Ccr6/Cxcr5/Gpr18/Gpr183/Slamf8/Cnr2	31
+GO:0050870	Positive Regulation Of T Cell Activation	25/241	246/28943	6.27E-20	9.30E-18	6.52E-18	Lck/Efnb2/Il7r/Slamf1/Nckap1l/Cd4/Cd74/Cd6/Icos/Cd28/Ptprc/Il1a/Rhoh/Coro1a/Sash3/Cd3e/Tespa1/H2-Aa/Ccr7/Gimap3/Foxp3/H2-Ob/Rasal3/H2-Eb1/Il4i1	25
+GO:0002449	Lymphocyte Mediated Immunity	32/241	483/28943	1.42E-19	1.91E-17	1.34E-17	Il7r/Sh2d1a/Pou2f2/Slamf6/Slamf1/H2-M2/Cd40/Nckap1l/C3/Tnf/Cd74/Cd28/Inpp5d/Ptprc/Cr2/Coro1a/Il21r/Sash3/Btk/Vav1/H2-Aa/Prf1/Icam1/Gimap3/Foxp3/Aicda/Ccr6/H2-Ob/H2-Eb1/Klri1/Csf2rb2/Il4i1	32
+GO:0060326	Cell Chemotaxis	27/241	314/28943	1.53E-19	1.92E-17	1.35E-17	Il16/Slamf1/Nckap1l/Cxcl13/Cd74/Ccl20/Sell/Ppbp/Cxcl3/Cxcl1/Cxcl9/Ptn/Coro1a/Rac2/Vav1/Cxcl10/Ccl7/Ccr7/Ccr6/Cxcr4/Cxcr5/Ccr4/Gpr18/Gpr183/Slamf8/Cnr2/Bin2	27
+GO:0030595	Leukocyte Chemotaxis	24/241	228/28943	1.56E-19	1.92E-17	1.35E-17	Il16/Slamf1/Nckap1l/Cxcl13/Cd74/Ccl20/Sell/Ppbp/Cxcl3/Cxcl1/Cxcl9/Ptn/Coro1a/Rac2/Vav1/Cxcl10/Ccl7/Ccr7/Ccr6/Cxcr5/Gpr18/Gpr183/Slamf8/Cnr2	24
+GO:0002366	Leukocyte Activation Involved In Immune Response	26/241	328/28943	5.61E-18	5.95E-16	4.17E-16	Relb/Ly9/Blk/Slamf6/Slamf1/Cd40/Tnfaip3/Irf4/Cd180/Nckap1l/Cd74/Cd28/Ptprc/Coro1a/Lat/Dock11/Pou2af1/Rac2/Icam1/Ccr7/Foxp3/Aicda/Ccr6/Irf8/Zc3h12a/Gpr183	26
+GO:0002831	Regulation Of Response To Biotic Stimulus	27/241	371/28943	1.10E-17	1.05E-15	7.39E-16	Sh2d1a/Cyba/Slamf6/Tnfaip3/Cd180/C3/Sting1/Cd74/Tasl/Ly96/Cxcl1/Cd37/Trim30a/Vav1/Aim2/Nlrc4/Gimap3/Foxp3/Zc3h12a/Ifi209/Tlr9/Mmp12/Nlrc3/Slamf8/Scimp/Klri1/Il4i1	27
+GO:0002253	Activation Of Immune Response	29/241	448/28943	1.50E-17	1.39E-15	9.72E-16	Lck/Sh2d1a/Blk/Nckap1l/Gcsam/C3/Sting1/Ms4a1/Lpxn/Ctla4/Cd28/Ptprc/Cr2/Laptm5/Trim30a/Btk/Cd3e/Tespa1/Aim2/Ccr7/Nlrc4/Foxp3/Cd79b/Zc3h12a/Klhl6/Ifi209/Tlr9/Klri1/Bcl2a1d	29
+GO:0051251	Positive Regulation Of Lymphocyte Activation	29/241	465/28943	4.03E-17	3.42E-15	2.40E-15	Lck/Efnb2/Il7r/Slamf1/Cd40/Nckap1l/Cd4/Cd74/Cd6/Icos/Cd28/Inpp5d/Ptprc/Il1a/Rhoh/Coro1a/Sash3/Cd3e/Tespa1/H2-Aa/Ccr7/Gimap3/Foxp3/H2-Ob/Tlr9/Gpr183/Rasal3/H2-Eb1/Il4i1	29
+GO:1903706	Regulation Of Hemopoiesis	28/241	435/28943	6.46E-17	5.32E-15	3.73E-15	Lck/Il7r/Ikzf3/Ikzf1/Nckap1l/Cd4/Tnf/Cd74/Ctla4/Cd28/Inpp5d/Ptprc/Rhoh/Ptn/Sash3/Ets1/Tespa1/H2-Aa/Ccr7/Csf3/Gimap3/Foxp3/Iapp/Zc3h12a/Tlr9/Gpr171/Slamf8/Il4i1	28
+GO:0046631	Alpha-Beta T Cell Activation	20/241	191/28943	2.01E-16	1.61E-14	1.13E-14	Relb/Ly9/Slamf6/Irf4/Nckap1l/Cd28/Ptprc/Tnfsf8/Sash3/Cd3e/Ccr7/Gimap3/Foxp3/Pla2g2d/Zc3h12a/Gpr18/Gpr183/Wdfy4/Btla/Rasal3	20
+GO:0019221	Cytokine-Mediated Signaling Pathway	27/241	421/28943	2.62E-16	2.05E-14	1.43E-14	Il16/Il7r/Cxcl13/Cd4/Sting1/Tnf/Cd74/Ccl20/Ptprc/Il1a/Laptm5/Ppbp/Cxcl3/Cxcl1/Cxcl9/Il21r/Cxcl10/Ccl7/Aim2/Il22ra2/Cxcr4/Mmp12/Grem2/Stat4/Il2rb/Duox2/Csf2rb2	27
+GO:0051250	Negative Regulation Of Lymphocyte Activation	19/241	171/28943	3.82E-16	2.84E-14	1.99E-14	Tnfrsf13b/Blk/Tnfaip3/Nckap1l/Cd74/Ctla4/Inpp5d/Laptm5/Cd37/Btk/H2-Aa/Bank1/Gimap3/Foxp3/Zc3h12d/Pla2g2d/Zc3h12a/Btla/Il4i1	19
+GO:0002260	Lymphocyte Homeostasis	15/241	89/28943	9.14E-16	6.45E-14	4.53E-14	Il7r/Tnfrsf13b/Tnfaip3/Nckap1l/Pmaip1/Cd74/Skil/Coro1a/Lat/Dock11/Sash3/Gimap3/Foxp3/Pik3cd/Gpr174	15
+GO:0031349	Positive Regulation Of Defense Response	23/241	305/28943	1.48E-15	9.76E-14	6.84E-14	Il16/Sh2d1a/Cyba/Slamf6/C3/Sting1/Tnf/Cd74/Tasl/Cd28/Cxcl1/Trim30a/Ets1/Vav1/Aim2/Ccr7/Ctss/Nlrc4/Gimap3/Ifi209/Tlr9/Mmp12/Klri1	23
+GO:0032675	Regulation Of Interleukin-6 Production	18/241	167/28943	4.01E-15	2.33E-13	1.64E-13	Il16/Cyba/Pou2f2/Slamf1/Tnfaip3/Nckap1l/Tnf/Cd74/Inpp5d/Laptm5/Trim30a/Pou2af1/Bank1/Foxp3/Zc3h12a/Tlr9/Nlrc3/Scimp	18
+GO:0032635	Interleukin-6 Production	18/241	176/28943	1.02E-14	5.48E-13	3.84E-13	Il16/Cyba/Pou2f2/Slamf1/Tnfaip3/Nckap1l/Tnf/Cd74/Inpp5d/Laptm5/Trim30a/Pou2af1/Bank1/Foxp3/Zc3h12a/Tlr9/Nlrc3/Scimp	18
+GO:0002685	Regulation Of Leukocyte Migration	20/241	234/28943	1.04E-14	5.49E-13	3.85E-13	Slamf1/Nckap1l/Gcsam/Cxcl13/Cd74/Ccl20/Sell/Itga4/Il1a/Rhoh/Ptn/Coro1a/Rac2/Cxcl10/Ccl7/Icam1/Ccr7/Ccr6/Gpr18/Slamf8	20
+GO:0050920	Regulation Of Chemotaxis	18/241	231/28943	1.13E-12	4.85E-11	3.40E-11	Efnb2/Il16/Slamf1/Nckap1l/Cxcl13/Cd74/Sell/Ptn/Rac2/Cxcl10/Ccl7/Ccr7/Ccr6/Cxcr4/Ccr4/Gpr18/Gpr183/Slamf8	18
+GO:0002440	Production Of Molecular Mediator Of Immune Response	23/241	422/28943	1.40E-12	5.86E-11	4.11E-11	Il7r/Pou2f2/Slamf1/Cd40/Tnfaip3/Tnf/Cd74/Cd28/Ptprc/Laptm5/Siglecg/Cd37/Sash3/Btk/H2-Aa/Gimap3/Foxp3/Aicda/Ccr6/H2-Ob/Tlr9/Scimp/H2-Eb1	23
+GO:0001906	Cell Killing	19/241	273/28943	1.95E-12	7.82E-11	5.48E-11	Il7r/Sh2d1a/Slamf6/H2-M2/Nckap1l/Cxcl13/C3/Ccl20/Ptprc/Ppbp/Cxcl1/Cxcl9/Coro1a/Vav1/Cxcl10/Prf1/Gimap3/Klri1/Lyz1	19
+GO:0045088	Regulation Of Innate Immune Response	18/241	240/28943	2.16E-12	8.42E-11	5.91E-11	Sh2d1a/Slamf6/Tnfaip3/C3/Sting1/Cd74/Tasl/Trim30a/Vav1/Aim2/Nlrc4/Gimap3/Ifi209/Tlr9/Mmp12/Nlrc3/Slamf8/Klri1	18
+GO:0016064	Immunoglobulin Mediated Immune Response	19/241	286/28943	4.42E-12	1.54E-10	1.08E-10	Pou2f2/Cd40/C3/Tnf/Cd74/Cd28/Inpp5d/Ptprc/Cr2/Il21r/Btk/H2-Aa/Gimap3/Foxp3/Aicda/Ccr6/H2-Ob/H2-Eb1/Csf2rb2	19
+GO:0002237	Response To Molecule Of Bacterial Origin	22/241	407/28943	5.18E-12	1.79E-10	1.25E-10	Tnfaip3/Cd180/Cxcl13/Tnf/Cd6/Ly96/Cr2/Il1a/Ppbp/Cxcl3/Cxcl1/Cxcl9/Trim30a/Cxcl10/Ccr7/Aicda/Irf8/Zc3h12a/Tlr9/Nlrc3/Scimp/Cnr2	22
+GO:0009615	Response To Virus	20/241	347/28943	1.58E-11	5.04E-10	3.53E-10	Pou2f2/Cd40/Sting1/Tnf/Pmaip1/Ptprc/Cxcl9/Cd37/Trim30a/Pou2af1/Cxcl10/Prf1/Aim2/Foxp3/Aicda/Zc3h12a/Tlr9/Mmp12/Wdfy4/Duox2	20
+GO:0071216	Cellular Response To Biotic Stimulus	19/241	340/28943	8.78E-11	2.48E-09	1.74E-09	Bid/Tnfaip3/Cd180/Cxcl13/Tnf/Cd6/Ly96/Cr2/Il1a/Ppbp/Cxcl3/Cxcl1/Cxcl9/Trim30a/Cxcl10/Aicda/Irf8/Zc3h12a/Scimp	19
+GO:0002507	Tolerance Induction	8/241	30/28943	1.03E-10	2.77E-09	1.94E-09	Blk/Tnfaip3/Icos/Pdcd1/Cd3e/Ccr7/Foxp3/Ccr4	8
+GO:0002700	Regulation Of Production Of Molecular Mediator Of Immune Response	15/241	207/28943	2.51E-10	6.26E-09	4.39E-09	Slamf1/Cd40/Tnfaip3/Tnf/Cd74/Cd28/Ptprc/Laptm5/Siglecg/Cd37/Sash3/Gimap3/Foxp3/Tlr9/Scimp	15
+GO:1990868	Response To Chemokine	10/241	73/28943	5.22E-10	1.25E-08	8.75E-09	Cxcl13/Ccl20/Ppbp/Cxcl3/Cxcl1/Cxcl9/Cxcl10/Ccl7/Zc3h12a/Cxcr4	10
+GO:0007249	I-Kappab Kinase/Nf-Kappab Signaling	15/241	230/28943	1.09E-09	2.50E-08	1.75E-08	Relb/Cd40/Tnfaip3/Cd4/Tnf/Cd74/Il1a/Rhoh/Trim30a/Btk/S100b/Tnfsf10/Zc3h12a/Tlr9/Nlrc3	15
+GO:0070372	Regulation Of Erk1 And Erk2 Cascade	17/241	326/28943	2.52E-09	5.59E-08	3.92E-08	Slamf1/Psca/Cd4/C3/Cd74/Ccl20/Ptprc/Il1a/Glipr2/Ccl7/Spred3/Icam1/Iapp/Tlr9/Cxcr4/Gpr183/Scimp	17
+GO:0031341	Regulation Of Cell Killing	12/241	146/28943	3.89E-09	8.29E-08	5.82E-08	Il7r/Sh2d1a/Slamf6/H2-M2/Nckap1l/C3/Ptprc/Cxcl1/Vav1/Prf1/Gimap3/Klri1	12
+GO:0048535	Lymph Node Development	7/241	31/28943	5.64E-09	1.17E-07	8.21E-08	Il7r/Ikzf1/Cxcl13/Ltb/Nfkb2/Ccr7/Cxcr5	7
+GO:0019882	Antigen Processing And Presentation	11/241	128/28943	1.10E-08	2.19E-07	1.53E-07	Relb/H2-M2/Cd74/Marchf1/H2-Aa/Icam1/Ccr7/Ctss/H2-Ob/Wdfy4/H2-Eb1	11
+GO:0007204	Positive Regulation Of Cytosolic Calcium Ion Concentration	14/241	234/28943	1.19E-08	2.32E-07	1.63E-07	Cd52/Cxcl13/Cd4/Cxcl3/Cxcl1/Ccr7/Gimap3/Ccr6/Cxcr4/Cxcr5/Ccr4/Gpr18/P2ry10/Gpr174	14
+GO:0001909	Leukocyte Mediated Cytotoxicity	12/241	169/28943	2.03E-08	3.81E-07	2.67E-07	Il7r/Sh2d1a/Slamf6/H2-M2/Nckap1l/Ptprc/Cxcl1/Coro1a/Vav1/Prf1/Gimap3/Klri1	12
+GO:0051607	Defense Response To Virus	15/241	289/28943	2.38E-08	4.45E-07	3.12E-07	Cd40/Sting1/Pmaip1/Ptprc/Cxcl9/Cd37/Trim30a/Cxcl10/Prf1/Aim2/Foxp3/Aicda/Zc3h12a/Tlr9/Mmp12	15
+GO:0002710	Negative Regulation Of T Cell Mediated Immunity	6/241	24/28943	3.72E-08	6.72E-07	4.72E-07	Il7r/Slamf1/Nckap1l/Ptprc/Foxp3/Il4i1	6
+GO:0002274	Myeloid Leukocyte Activation	14/241	272/28943	7.82E-08	1.34E-06	9.41E-07	Il16/Relb/Blk/Slamf1/Cd48/Irf4/Clu/Tnf/Rhoh/Lat/Cd37/Rac2/Gimap3/Cnr2	14
+GO:0001910	Regulation Of Leukocyte Mediated Cytotoxicity	10/241	125/28943	1.02E-07	1.73E-06	1.21E-06	Il7r/Sh2d1a/Slamf6/H2-M2/Nckap1l/Ptprc/Cxcl1/Vav1/Gimap3/Klri1	10
+GO:0097191	Extrinsic Apoptotic Signaling Pathway	13/241	238/28943	1.16E-07	1.92E-06	1.35E-06	Bid/Tnfaip3/Tnf/Pmaip1/Ptprc/Mal/Il1a/Skil/Clca3a2/Icam1/Tnfsf10/Fcmr/Bcl2a1d	13
+GO:0006959	Humoral Immune Response	17/241	425/28943	1.22E-07	2.00E-06	1.41E-06	Sh2d1a/Cxcl13/C3/Tnf/Ccl20/Ptprc/Cr2/Ppbp/Cxcl3/Cxcl1/Cxcl9/Cd37/Cxcl10/Ccr7/Gimap3/Gpr183/Jchain	17
+GO:0002573	Myeloid Leukocyte Differentiation	13/241	246/28943	1.70E-07	2.71E-06	1.90E-06	Relb/Spib/Ikzf1/Irf4/Cd4/Tnf/Cd74/Inpp5d/Ccr7/Csf3/Gimap3/Iapp/Gpr183	13
+GO:0033627	Cell Adhesion Mediated By Integrin	8/241	90/28943	8.86E-07	1.25E-05	8.78E-06	Itgb7/Itgae/Nckap1l/Cxcl13/Lpxn/Itga4/Cd3e/Icam1	8
+GO:0031640	Killing Of Cells Of Other Organism	8/241	94/28943	1.24E-06	1.69E-05	1.19E-05	Cxcl13/C3/Ccl20/Ppbp/Cxcl9/Cxcl10/Prf1/Lyz1	8
+GO:0097028	Dendritic Cell Differentiation	6/241	44/28943	1.70E-06	2.28E-05	1.60E-05	Relb/Blk/Irf4/Ccr7/Gimap3/Irf8	6
+GO:0045765	Regulation Of Angiogenesis	13/241	308/28943	2.14E-06	2.83E-05	1.98E-05	Cd40/C3/Tnf/Il1a/Naxe/Ptn/Ets1/Cxcl10/Btg1/Ppp1r16b/Pik3cd/Zc3h12a/Cxcr4	13
+GO:0045730	Respiratory Burst	5/241	26/28943	2.19E-06	2.83E-05	1.98E-05	Cyba/Cybb/Rac2/Slamf8/Jchain	5
+GO:0001667	Ameboidal-Type Cell Migration	16/241	471/28943	2.46E-06	3.14E-05	2.20E-05	Itgb7/Efnb2/Cd40/Cxcl13/Sox8/Tnf/Lpxn/Itga4/Glipr2/Coro1a/Ets1/Pik3cd/Ccr6/Zc3h12a/Cxcr4/Mmp12	16
+GO:0031589	Cell-Substrate Adhesion	14/241	371/28943	3.20E-06	4.04E-05	2.83E-05	Itgb7/Bcan/Itgae/Parvg/Lpxn/Itga4/Ptn/Coro1a/Plekha2/Cd3e/Rac2/Mmp12/Frem1/Muc21	14
+GO:0002437	Inflammatory Response To Antigenic Stimulus	7/241	77/28943	3.73E-06	4.66E-05	3.27E-05	C3/Tnf/Cd6/Cd28/Icam1/Ccr7/Pla2g2d	7
+GO:0002367	Cytokine Production Involved In Immune Response	9/241	148/28943	4.45E-06	5.36E-05	3.76E-05	Slamf1/Tnf/Cd74/Laptm5/Sash3/Gimap3/Foxp3/Tlr9/Scimp	9
+GO:0002526	Acute Inflammatory Response	8/241	112/28943	4.64E-06	5.58E-05	3.91E-05	C3/Tnf/Cd6/Il1a/Cxcl1/Icam1/Ccr7/Pla2g2d	8
+GO:0006909	Phagocytosis	14/241	390/28943	5.67E-06	6.62E-05	4.64E-05	Cyba/Slamf1/Nckap1l/C3/Tnf/Ptprc/Rhoh/Coro1a/Rac2/Vav1/Ccr7/Irf8/Il2rb/Bin2	14
+GO:2000106	Regulation Of Leukocyte Apoptotic Process	8/241	119/28943	7.29E-06	8.13E-05	5.70E-05	Il7r/Blk/Cd74/Pdcd1/Ccr7/Pik3cd/Fcmr/Hsh2d	8
+GO:0072593	Reactive Oxygen Species Metabolic Process	11/241	245/28943	7.33E-06	8.14E-05	5.71E-05	Cyba/Cybb/Tnf/Pmaip1/Duoxa2/Cxcl1/Trim30a/Birc3/Vav1/Zc3h12a/Duox2	11
+GO:0034113	Heterotypic Cell-Cell Adhesion	6/241	57/28943	7.97E-06	8.66E-05	6.08E-05	Lck/Itgb7/Tnfaip3/Tnf/Ptprc/Itga4	6
+GO:0008360	Regulation Of Cell Shape	9/241	159/28943	7.97E-06	8.66E-05	6.08E-05	Rhoh/Ptn/Coro1a/S100b/Rac2/Ccl7/Icam1/Arhgap15/Fmnl1	9
+GO:0045190	Isotype Switching	6/241	59/28943	9.76E-06	0.000103724	7.27E-05	Cd40/Cd28/Ptprc/Foxp3/Aicda/Ccr6	6
+GO:0048302	Regulation Of Isotype Switching To Igg Isotypes	4/241	17/28943	1.02E-05	0.000108556	7.61E-05	Cd40/Cd28/Ptprc/Foxp3	4
+GO:0050766	Positive Regulation Of Phagocytosis	7/241	91/28943	1.14E-05	0.000119937	8.41E-05	Cyba/Nckap1l/C3/Tnf/Ptprc/Ccr7/Il2rb	7
+GO:0018108	Peptidyl-Tyrosine Phosphorylation	12/241	320/28943	1.73E-05	0.000178235	0.000124993	Lck/Blk/Cd40/Cd4/Cd74/Ptprc/Btk/Cd3e/Icam1/Bank1/Csf3/Il22ra2	12
+GO:0051090	Regulation Of Dna-Binding Transcription Factor Activity	14/241	436/28943	1.98E-05	0.000200947	0.00014092	Cd40/Tnfaip3/Clu/Sting1/Tnf/Trim30a/Icam1/Aim2/Csf3/Nlrc4/Foxp3/Zc3h12a/Tlr9/Nlrc3	14
+GO:0034341	Response To Interferon-Gamma	8/241	139/28943	2.27E-05	0.000222794	0.000156241	Cd40/Cd74/Ccl20/Kynu/Ccl7/H2-Aa/Irf8/H2-Eb1	8
+GO:0090132	Epithelium Migration	12/241	330/28943	2.34E-05	0.00022932	0.000160818	Efnb2/Cd40/Cxcl13/Tnf/Lpxn/Glipr2/Coro1a/Ets1/Pik3cd/Ccr6/Zc3h12a/Cxcr4	12
+GO:0097553	Calcium Ion Transmembrane Import Into Cytosol	9/241	185/28943	2.67E-05	0.000257299	0.000180439	Lck/Cyba/Cd4/Ptprc/Cxcl9/Coro1a/Cxcl10/Gimap3/Iapp	9
+GO:0006816	Calcium Ion Transport	14/241	449/28943	2.73E-05	0.000261953	0.000183703	Lck/Il16/Cyba/Cd4/Ms4a1/Ptprc/Cxcl9/Coro1a/Cxcl10/Icam1/Gimap3/Iapp/Tlr9/Cxcr4	14
+GO:0071887	Leukocyte Apoptotic Process	8/241	148/28943	3.56E-05	0.000334111	0.000234306	Il7r/Blk/Cd74/Pdcd1/Ccr7/Pik3cd/Fcmr/Hsh2d	8
+GO:2001056	Positive Regulation Of Cysteine-Type Endopeptidase Activity	8/241	149/28943	3.73E-05	0.000346182	0.000242771	Lck/Bid/Tnf/Pmaip1/Laptm5/Aim2/Nlrc4/Tnfsf10	8
+GO:2000116	Regulation Of Cysteine-Type Endopeptidase Activity	10/241	243/28943	4.02E-05	0.000368881	0.000258689	Lck/Bid/Tnf/Pmaip1/Laptm5/Aim2/Nlrc4/Tnfsf10/Fcmr/Bcl2a1d	10
+GO:0051924	Regulation Of Calcium Ion Transport	11/241	296/28943	4.22E-05	0.000385881	0.000270611	Il16/Cyba/Cd4/Cxcl9/Coro1a/Cxcl10/Icam1/Gimap3/Iapp/Tlr9/Cxcr4	11
+GO:0042267	Natural Killer Cell Mediated Cytotoxicity	6/241	82/28943	6.47E-05	0.00056734	0.000397865	Sh2d1a/Slamf6/Coro1a/Vav1/Gimap3/Klri1	6
+GO:2000351	Regulation Of Endothelial Cell Apoptotic Process	5/241	54/28943	8.71E-05	0.000735796	0.000516	Cd40/Tnfaip3/Tnf/Itga4/Icam1	5
+GO:0002399	Mhc Class Ii Protein Complex Assembly	3/241	11/28943	8.95E-05	0.000750284	0.00052616	H2-Aa/H2-Ob/H2-Eb1	3
+GO:0002503	Peptide Antigen Assembly With Mhc Class Ii Protein Complex	3/241	11/28943	8.95E-05	0.000750284	0.00052616	H2-Aa/H2-Ob/H2-Eb1	3
+GO:0072577	Endothelial Cell Apoptotic Process	5/241	57/28943	0.000112971	0.000923066	0.000647329	Cd40/Tnfaip3/Tnf/Itga4/Icam1	5
+GO:0046598	Positive Regulation Of Viral Entry Into Host Cell	3/241	12/28943	0.000118664	0.000964265	0.000676221	Cd4/Cd74/Trim30a	3
+GO:0075294	Positive Regulation By Symbiont Of Entry Into Host	3/241	12/28943	0.000118664	0.000964265	0.000676221	Cd4/Cd74/Trim30a	3
+GO:0019730	Antimicrobial Humoral Response	8/241	177/28943	0.000125164	0.001011545	0.000709377	Cxcl13/Ccl20/Ppbp/Cxcl3/Cxcl1/Cxcl9/Cxcl10/Jchain	8
+GO:0051235	Maintenance Of Location	11/241	341/28943	0.000147966	0.00118293	0.000829566	Lck/Cyba/Cd4/C3/Tnf/Ptprc/Cxcl9/Coro1a/Cxcl10/Zc3h12a/Cops9	11
+GO:0060760	Positive Regulation Of Response To Cytokine Stimulus	5/241	61/28943	0.000156233	0.001232413	0.000864268	Sting1/Cd74/Laptm5/Cxcr4/Mmp12	5
+GO:0071356	Cellular Response To Tumor Necrosis Factor	8/241	183/28943	0.000157444	0.001238671	0.000868657	Cd40/Tnf/Ccl20/Laptm5/Birc3/Ccl7/Aim2/Zc3h12a	8
+GO:0032102	Negative Regulation Of Response To External Stimulus	12/241	407/28943	0.000172223	0.001337209	0.000937759	Tnfaip3/Cxcl13/Tnf/Siglecg/Ets1/Foxp3/Il22ra2/Mmp12/Nlrc3/Gpr18/Slamf8/Cnr2	12
+GO:0002532	Production Of Molecular Mediator Involved In Inflammatory Response	6/241	99/28943	0.000183956	0.001409854	0.000988704	Tnf/Cd6/Chid1/Zc3h12a/Nlrc3/Slamf8	6
+GO:0060263	Regulation Of Respiratory Burst	3/241	14/28943	0.000193929	0.001478646	0.001036946	Rac2/Slamf8/Jchain	3
+GO:0030865	Cortical Cytoskeleton Organization	5/241	64/28943	0.000196216	0.00148843	0.001043808	Nckap1l/Tnf/Rhoh/Rac2/Fmnl1	5
+GO:2000271	Positive Regulation Of Fibroblast Apoptotic Process	3/241	15/28943	0.000240922	0.001773141	0.00124347	Bid/Pmaip1/Btg1	3
+GO:0001771	Immunological Synapse Formation	3/241	16/28943	0.000294699	0.002126712	0.001491423	Cd6/Prf1/Ccr7	3
+GO:0002467	Germinal Center Formation	3/241	16/28943	0.000294699	0.002126712	0.001491423	Tnfaip3/Nfkb2/Klhl6	3
+GO:1903169	Regulation Of Calcium Ion Transmembrane Transport	8/241	201/28943	0.000297695	0.002143114	0.001502926	Cyba/Cd4/Cxcl9/Coro1a/Cxcl10/Gimap3/Iapp/Tlr9	8
+GO:0034612	Response To Tumor Necrosis Factor	8/241	202/28943	0.000307783	0.002205034	0.001546349	Cd40/Tnf/Ccl20/Laptm5/Birc3/Ccl7/Aim2/Zc3h12a	8
+GO:0031334	Positive Regulation Of Protein-Containing Complex Assembly	8/241	203/28943	0.000318148	0.002267878	0.00159042	Bid/Ikzf1/Clu/Nckap1l/Cxcl13/Tnf/Icam1/Csf3	8
+GO:0045428	Regulation Of Nitric Oxide Biosynthetic Process	5/241	73/28943	0.000363783	0.002550783	0.001788816	Clu/Tnf/Icam1/Gimap3/Zc3h12a	5
+GO:2000377	Regulation Of Reactive Oxygen Species Metabolic Process	7/241	161/28943	0.000418546	0.002907274	0.002038817	Cyba/Tnf/Duoxa2/Cxcl1/Trim30a/Birc3/Zc3h12a	7
+GO:0070588	Calcium Ion Transmembrane Transport	10/241	325/28943	0.000427465	0.002941674	0.00206294	Lck/Cyba/Cd4/Ptprc/Cxcl9/Coro1a/Cxcl10/Gimap3/Iapp/Tlr9	10
+GO:0002544	Chronic Inflammatory Response	3/241	20/28943	0.000585341	0.003883943	0.002723736	Tnfaip3/Tnf/Foxp3	3
+GO:0002577	Regulation Of Antigen Processing And Presentation	3/241	21/28943	0.000678714	0.004434067	0.003109528	Cd74/Ccr7/H2-Ob	3
+GO:0006809	Nitric Oxide Biosynthetic Process	5/241	85/28943	0.000732794	0.00474556	0.003327972	Clu/Tnf/Icam1/Gimap3/Zc3h12a	5
+GO:0050679	Positive Regulation Of Epithelial Cell Proliferation	8/241	232/28943	0.000767595	0.004949319	0.003470864	Cyba/Tnfaip3/Tnf/Itga4/Ptn/Ppp1r16b/Pik3cd/Mmp12	8
+GO:0045661	Regulation Of Myoblast Differentiation	5/241	86/28943	0.000772816	0.004967127	0.003483352	Sox8/Tnf/Cxcl9/Cxcl10/Btg1	5
+GO:0043087	Regulation Of Gtpase Activity	10/241	351/28943	0.000773706	0.004967127	0.003483352	Cd40/Cxcl13/Ccl20/Dock11/Vav1/Ccl7/Icam1/Ccr7/Arhgap15/Rasal3	10
+GO:0060009	Sertoli Cell Development	3/241	22/28943	0.000781066	0.005003549	0.003508895	Sox8/Il1a/Icam1	3
+GO:0140632	Inflammasome Complex Assembly	3/241	24/28943	0.001014016	0.006358505	0.0044591	Trim30a/Aim2/Nlrc3	3
+GO:0003158	Endothelium Development	6/241	138/28943	0.001078401	0.006705527	0.00470246	Tnf/Cxcl10/Btg1/Icam1/Ppp1r16b/Cxcr4	6
+GO:2001057	Reactive Nitrogen Species Metabolic Process	5/241	93/28943	0.001100305	0.006827413	0.004787937	Clu/Tnf/Icam1/Gimap3/Zc3h12a	5
+GO:1901739	Regulation Of Myoblast Fusion	3/241	25/28943	0.001145243	0.007076646	0.004962718	Cxcl9/Cxcl10/Cd53	3
+GO:0010632	Regulation Of Epithelial Cell Migration	8/241	248/28943	0.001178252	0.007265476	0.005095142	Cd40/Cxcl13/Tnf/Glipr2/Ets1/Pik3cd/Ccr6/Zc3h12a	8
+GO:0051341	Regulation Of Oxidoreductase Activity	5/241	95/28943	0.001210328	0.007447785	0.005222991	Cyba/Tnf/Il1a/Slamf8/Cnr2	5
+GO:0043299	Leukocyte Degranulation	5/241	101/28943	0.001589355	0.009484966	0.006651628	Blk/Nckap1l/Coro1a/Lat/Rac2	5
+GO:0048771	Tissue Remodeling	7/241	203/28943	0.001625999	0.009633153	0.006755549	Inpp5d/Itga4/Il1a/Ptn/Rac2/Ctss/Iapp	7
+GO:0043547	Positive Regulation Of Gtpase Activity	8/241	261/28943	0.001627178	0.009633153	0.006755549	Cd40/Cxcl13/Ccl20/Dock11/Vav1/Ccl7/Icam1/Ccr7	8
+GO:0019233	Sensory Perception Of Pain	6/241	150/28943	0.001652661	0.009764526	0.006847678	Il1a/Ctss/Iapp/Cxcr4/Gpr171/Cnr2	6
+GO:0090200	Positive Regulation Of Release Of Cytochrome C From Mitochondria	3/241	30/28943	0.001960595	0.011335529	0.007949393	Bid/Pmaip1/Tnfsf10	3
+GO:0044346	Fibroblast Apoptotic Process	3/241	33/28943	0.002586811	0.014503745	0.010171204	Bid/Pmaip1/Btg1	3
+GO:0035308	Negative Regulation Of Protein Dephosphorylation	3/241	34/28943	0.002819856	0.015691729	0.011004315	Nckap1l/Tnf/Ppp1r16b	3
+GO:0035025	Positive Regulation Of Rho Protein Signal Transduction	3/241	35/28943	0.003065427	0.01671334	0.011720751	Gpr18/P2ry10/Gpr174	3
+GO:0045445	Myoblast Differentiation	5/241	119/28943	0.003248968	0.017462525	0.01224614	Sox8/Tnf/Cxcl9/Cxcl10/Btg1	5
+GO:0048709	Oligodendrocyte Differentiation	5/241	119/28943	0.003248968	0.017462525	0.01224614	Clu/Sox8/Mal/Ptn/Cxcr4	5
+GO:1905330	Regulation Of Morphogenesis Of An Epithelium	4/241	73/28943	0.003255825	0.017462525	0.01224614	Sox8/Tnf/Cxcl10/Pik3cd	4
+GO:0008045	Motor Neuron Axon Guidance	3/241	36/28943	0.003323737	0.017698752	0.012411802	Rhoh/Rac2/Cxcr4	3
+GO:0097242	Amyloid-Beta Clearance	3/241	36/28943	0.003323737	0.017698752	0.012411802	Clu/C3/Tnf	3
+GO:0045446	Endothelial Cell Differentiation	5/241	120/28943	0.003367669	0.01790055	0.012553319	Tnf/Btg1/Icam1/Ppp1r16b/Cxcr4	5
+GO:0002357	Defense Response To Tumor Cell	2/241	11/28943	0.003614085	0.018741691	0.013143195	Laptm5/Prf1	2
+GO:2000320	Negative Regulation Of T-Helper 17 Cell Differentiation	2/241	11/28943	0.003614085	0.018741691	0.013143195	Foxp3/Zc3h12a	2
+GO:0033674	Positive Regulation Of Kinase Activity	10/241	440/28943	0.00402597	0.020587978	0.014437962	Axin2/Cd40/Clu/Cd4/Tnf/Cd74/Ptprc/Lat/Ccr7/Tlr9	10
+GO:0045453	Bone Resorption	4/241	79/28943	0.004323825	0.021553721	0.015115219	Inpp5d/Rac2/Ctss/Iapp	4
+GO:0071347	Cellular Response To Interleukin-1	4/241	79/28943	0.004323825	0.021553721	0.015115219	Cd40/Ccl20/Ccl7/Zc3h12a	4
+GO:0006568	Tryptophan Metabolic Process	2/241	13/28943	0.005069507	0.024977004	0.017515903	Kynu/Il4i1	2
+GO:0006586	Indolalkylamine Metabolic Process	2/241	13/28943	0.005069507	0.024977004	0.017515903	Kynu/Il4i1	2
+GO:2000347	Positive Regulation Of Hepatocyte Proliferation	2/241	13/28943	0.005069507	0.024977004	0.017515903	Tnfaip3/Ptn	2
+GO:0002444	Myeloid Leukocyte Mediated Immunity	5/241	133/28943	0.005207956	0.025531897	0.017905039	Blk/C3/Cxcl1/Lat/Rac2	5
+GO:0051259	Protein Complex Oligomerization	7/241	253/28943	0.005480325	0.026734614	0.018748482	Sting1/Cd74/Ms4a1/Prf1/Nlrc4/Iapp/Zc3h12a	7
+GO:0000018	Regulation Of Dna Recombination	5/241	135/28943	0.005543595	0.026998856	0.01893379	Cd40/Cd28/Ptprc/Foxp3/H1f0	5
+GO:0014015	Positive Regulation Of Gliogenesis	4/241	86/28943	0.005841774	0.02818468	0.019765386	Sox8/Tnf/Ptn/Cxcr4	4
+GO:0050918	Positive Chemotaxis	3/241	44/28943	0.005871707	0.02818468	0.019765386	Il16/Coro1a/Ccr4	3
+GO:0001660	Fever Generation	2/241	14/28943	0.005882103	0.02818468	0.019765386	Tnf/Il1a	2
+GO:0055074	Calcium Ion Homeostasis	8/241	324/28943	0.006021666	0.028806871	0.020201717	Lck/Cyba/Cd40/Ptprc/Cxcl9/Coro1a/S100b/Cxcl10	8
+GO:0032874	Positive Regulation Of Stress-Activated Mapk Cascade	5/241	138/28943	0.006075274	0.029016525	0.020348743	Slamf1/Tnf/Il1a/Zc3h12a/Scimp	5
+GO:0019058	Viral Life Cycle	7/241	261/28943	0.006464596	0.030580529	0.02144555	Cd4/Tnf/Cd74/Trim30a/Icam1/Aicda/Zc3h12a	7
+GO:0006957	Complement Activation, Alternative Pathway	2/241	15/28943	0.006749977	0.031577967	0.022145034	C3/Cr2	2
+GO:0002347	Response To Tumor Cell	3/241	48/28943	0.007483863	0.034737303	0.024360617	Laptm5/Prf1/Il4i1	3
+GO:0006968	Cellular Defense Response	2/241	16/28943	0.007672159	0.03517098	0.024664747	Sh2d1a/Lat	2
+GO:0009074	Aromatic Amino Acid Family Catabolic Process	2/241	16/28943	0.007672159	0.03517098	0.024664747	Kynu/Il4i1	2
+GO:0061042	Vascular Wound Healing	2/241	16/28943	0.007672159	0.03517098	0.024664747	Tnf/Cxcr4	2
+GO:1903799	Negative Regulation Of Production Of Mirnas Involved In Gene Silencing By Mirna	2/241	16/28943	0.007672159	0.03517098	0.024664747	Tnf/Zc3h12a	2
+GO:0035305	Negative Regulation Of Dephosphorylation	3/241	50/28943	0.008378386	0.037997388	0.026646854	Nckap1l/Tnf/Ppp1r16b	3
+GO:0070555	Response To Interleukin-1	4/241	96/28943	0.008570068	0.038396794	0.026926949	Cd40/Ccl20/Ccl7/Zc3h12a	4
+GO:0010524	Positive Regulation Of Calcium Ion Transport Into Cytosol	2/241	17/28943	0.008647693	0.038396794	0.026926949	Cd4/Gimap3	2
+GO:0048853	Forebrain Morphogenesis	2/241	17/28943	0.008647693	0.038396794	0.026926949	Gdf7/Duox2	2
+GO:0060100	Positive Regulation Of Phagocytosis, Engulfment	2/241	17/28943	0.008647693	0.038396794	0.026926949	Nckap1l/C3	2
+GO:0061158	3'-Utr-Mediated Mrna Destabilization	2/241	17/28943	0.008647693	0.038396794	0.026926949	Zc3h12d/Zc3h12a	2
+GO:1905155	Positive Regulation Of Membrane Invagination	2/241	17/28943	0.008647693	0.038396794	0.026926949	Nckap1l/C3	2
+GO:0090559	Regulation Of Membrane Permeability	4/241	98/28943	0.009200317	0.040607351	0.028477171	Bid/Pmaip1/Laptm5/Gimap3	4
+GO:0072666	Establishment Of Protein Localization To Vacuole	3/241	52/28943	0.009333084	0.040889109	0.028674763	Tnfaip3/Clu/Laptm5	3
+GO:0016311	Dephosphorylation	8/241	351/28943	0.009523039	0.041613357	0.029182664	Nckap1l/Tnf/Inpp5d/Ptprc/Dusp2/Ptpn7/Ppp1r16b/Fbp1	8
+GO:0043217	Myelin Maintenance	2/241	18/28943	0.009675634	0.041833719	0.0293372	Clu/Cxcr4	2
+GO:1900221	Regulation Of Amyloid-Beta Clearance	2/241	18/28943	0.009675634	0.041833719	0.0293372	Clu/Tnf	2
+GO:0022612	Gland Morphogenesis	5/241	157/28943	0.010298978	0.044142728	0.030956464	Tnfaip3/Tnf/Ptn/Gdf7/Duox2	5
+GO:0031331	Positive Regulation Of Cellular Catabolic Process	9/241	431/28943	0.010512053	0.04492615	0.031505864	Axin2/Bid/Clu/Sting1/Tnf/Laptm5/Trim30a/Zc3h12d/Zc3h12a	9
+GO:0043652	Engulfment Of Apoptotic Cell	2/241	19/28943	0.010755049	0.045183393	0.031686263	Rhoh/Rac2	2
+GO:0045779	Negative Regulation Of Bone Resorption	2/241	19/28943	0.010755049	0.045183393	0.031686263	Inpp5d/Iapp	2
+GO:0045837	Negative Regulation Of Membrane Potential	2/241	19/28943	0.010755049	0.045183393	0.031686263	Pmaip1/Ptn	2
+GO:0060340	Positive Regulation Of Type I Interferon-Mediated Signaling Pathway	2/241	19/28943	0.010755049	0.045183393	0.031686263	Sting1/Mmp12	2
+GO:0060965	Negative Regulation Of Gene Silencing By Mirna	2/241	19/28943	0.010755049	0.045183393	0.031686263	Tnf/Zc3h12a	2
+GO:1902004	Positive Regulation Of Amyloid-Beta Formation	2/241	19/28943	0.010755049	0.045183393	0.031686263	Clu/Tnf	2
+GO:0030838	Positive Regulation Of Actin Filament Polymerization	3/241	55/28943	0.010879659	0.045577782	0.031962841	Nckap1l/Icam1/Csf3	3
+GO:0010810	Regulation Of Cell-Substrate Adhesion	6/241	225/28943	0.011685244	0.048746041	0.034184681	Ptn/Plekha2/Cd3e/Rac2/Mmp12/Muc21	6
+GO:0003159	Morphogenesis Of An Endothelium	2/241	20/28943	0.011885017	0.04889176	0.034286872	Cxcl10/Cxcr4	2
+GO:0060221	Retinal Rod Cell Differentiation	2/241	20/28943	0.011885017	0.04889176	0.034286872	Sox8/Ptn	2
+GO:0061154	Endothelial Tube Morphogenesis	2/241	20/28943	0.011885017	0.04889176	0.034286872	Cxcl10/Cxcr4	2
+GO:0090594	Inflammatory Response To Wounding	2/241	20/28943	0.011885017	0.04889176	0.034286872	Il1a/Siglecg	2
+GO:0035458	Cellular Response To Interferon-Beta	3/241	57/28943	0.011988046	0.049179178	0.034488432	Sting1/Aim2/Ifi209	3
