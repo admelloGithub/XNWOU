@@ -1,0 +1,116 @@
+#XNOUW
+
+#libraries
+```{r}
+library(ggplot2)
+library(clusterProfiler)
+library(DESeq2)
+library(biomaRt)
+library(stringr)
+library(ggrepel)
+```
+
+
+#Directories (Change as needed)
+```{r}
+input_directory <- "/Users/admello/OneDrive - University of Maryland School of Medicine/Desktop/XNWOU/input/"
+output_directory <- "/Users/admello/OneDrive - University of Maryland School of Medicine/Desktop/XNWOU/output/"
+```
+
+#Figure 2A
+```{r}
+devol <- read.delim(file = paste0(input_directory,"/D33colonized_vs_D33mock_unfiltered_degenes.txt"), sep = "\t")
+
+vol <- data.frame(devol$ID,devol$log2FoldChange,devol$padj,Comparison = "D33_colonized_vs_D33_mock")
+
+vol$devol.ID <- ifelse(devol$Significant ==TRUE,devol$ID,"XYZ")
+vol$Significant <-devol$Significant
+
+mart = useMart("ensembl", dataset="mmusculus_gene_ensembl")  #THIS STEP MIGHT FAIL DEPENDING ON ENSEMBL SERVERS. KEEP RETRYING!!!
+G_list <- getBM(filters= "ensembl_gene_id", attributes= c("ensembl_gene_id","external_gene_name"),values=vol$devol.ID,mart=mart)
+
+vol$devol.ID <- unlist(lapply(na.omit(vol$devol.ID), function(x) {
+  if (x %in% G_list$ensembl_gene_id) {
+  gsub(x, G_list$external_gene_name[G_list$ensembl_gene_id == x], x)
+  } else {
+  gsub(x, NA, x)
+  }
+}))
+ 
+vol.plot <- ggplot(data=vol, aes(x=as.numeric(devol.log2FoldChange), y = -log10(as.numeric(devol.padj)),colour=Significant,label =devol.ID)) + geom_point(alpha=0.5,size=1)+
+geom_hline(yintercept = -log10(0.05),linetype='dashed',alpha =0.2) +geom_vline(xintercept = 1,linetype='dashed',alpha =0.2) +geom_vline(xintercept = -1,linetype='dashed',alpha =0.2)+
+ xlab("Log2 Fold Change (LFC)") + ylab("-Log10(FDR)") + labs(title="D33_colonized_vs_D33_mock") + geom_text_repel(show.legend = FALSE,size = 5)+ scale_color_manual(values = c("dodgerblue3","firebrick3"))+ theme_bw()
+	pdf(paste0(output_directory,"/custom_volcano_plot.pdf"),
+    height=12,
+    width=12)
+  print(vol.plot)
+  dev.off()
+  print(vol.plot)
+
+```
+
+
+#Figure 2B
+```{r}
+
+df <- read.delim(file = paste0(input_directory,"/GO_D33vsMock_DEgene_pval0_01.txt"), sep = "\t")
+
+#GO terms of interest
+gos_xnwou_min <- c("GO:0002237","GO:0002274","GO:0002444","GO:0002467","GO:0002573","GO:0002685","GO:0007249","GO:0016064","GO:0019221","GO:0032103","GO:0032675","GO:0042113","GO:0042267","GO:0048535","GO:0050670","GO:0050863","GO:0051090","GO:0051251")
+rownames(df) <- df$ID
+df <- na.omit(df[gos_xnwou_min,])
+
+df <- df[order(df$Count,decreasing = T),]
+df$ID <- factor(df$ID, levels = rev(df$ID))
+df$Description <- factor(df$Description, levels = rev(df$Description))
+df$`-log10(FDR)` <- -log10(df$p.adjust)
+
+xlabels <- as.character(df$Description)
+xlabels[2] <- "Adaptive Immune Response Based On Somatic Recombination\nOf Immune Receptors Built From Immunoglobulin Superfamily Domains"
+
+bar <- ggplot(df, aes(x=Description, y=Count, fill = `-log10(FDR)`)) + 
+  geom_bar(stat = "identity") + scale_x_discrete(labels = rev(xlabels),expand = c(0,0)) + scale_y_continuous(expand = c(0,0))+ scale_fill_gradient(low = "orange1", high = "orange4") +
+  coord_flip() +   theme(axis.text.y = element_text(lineheight=.6)) + theme_bw()
+    print(bar)
+    
+    pdf(paste0(output_directory,"/GObar_plot.pdf"),height = 5, width = 8)
+    print(bar)
+    dev.off()
+
+```
+
+#Figure 2C
+
+```{r}
+devol <- read.delim(file = paste0(input_directory,"/D33colonized_vs_D33mock_unfiltered_degenes.txt"), sep = "\t")
+devol_001 <-devol[devol$pvalue<=0.01,]
+mart = useMart("ensembl", dataset="mmusculus_gene_ensembl")  #THIS STEP MIGHT FAIL DEPENDING ON ENSEMBL SERVERS. KEEP RETRYING!!!
+org.db <- "org.Mm.eg.db"
+entrez <- getBM(filters= "ensembl_gene_id", attributes= c("ensembl_gene_id","entrezgene_id","external_gene_name"),values=devol_001$ID,mart=mart)
+entrez <- na.omit(entrez[!duplicated(entrez$entrezgene_id),])
+entrez <- na.omit(entrez[!duplicated(entrez$ensembl_gene_id),])
+Ego <- enrichGO(na.omit(entrez$entrezgene_id), org.db, ont="BP", pvalueCutoff=0.05, pAdjustMethod = "BH", minGSSize = 10, maxGSSize = 500, qvalueCutoff = 0.05)
+Ego <- simplify(Ego, cutoff=0.7, by="p.adjust", select_fun=min)
+Ego@gene <- entrez$external_gene_name
+ego_convert <- entrez[,c(2,3), drop =F]
+rownames(ego_convert) <- ego_convert$entrezgene_id
+asd <- c()
+for (i in Ego@result$geneID) {
+asd <- c(asd,paste(as.vector(ego_convert[strsplit(i,"/")[[1]],]$external_gene_name), collapse="/"))
+  }
+Ego@result$geneID <-asd
+Ego@result$Description <- str_to_title(Ego@result$Description)
+
+glistval <- devol_001[devol_001$ID %in% entrez$ensembl_gene_id,]$log2FoldChange
+names(glistval) <- entrez$external_gene_name
+
+#GO terms of interest
+gos_xnwou_min <- c("GO:0002237","GO:0002274","GO:0002444","GO:0002467","GO:0002573","GO:0002685","GO:0007249","GO:0016064","GO:0019221","GO:0032103","GO:0032675","GO:0042113","GO:0042267","GO:0048535","GO:0050670","GO:0050863","GO:0051090","GO:0051251")
+Ego@result <- na.omit(Ego@result[gos_xnwou_min,])
+
+pdf(paste0(output_directory,"/CNET_18_GOplot.pdf"),height = 40, width = 40)#paper = "a4r")
+print(cnetplot(Ego, categorySize="padj", foldChange=glistval,node_label ="all",showCategory = nrow(Ego@result),  cex_category = 3,  cex_gene = 2.4, cex_label_category =2.4,cex_label_gene = 2, layout = "kk", colorEdge = F, color_category =   "#006600",circular = F) + scale_colour_gradient2(name = "log2 fold change", low = "dodgerblue1", mid = "grey50", high = "firebrick1") + guides(size = guide_legend(override.aes=list(color="#006600")))  )
+dev.off()
+
+```
+
